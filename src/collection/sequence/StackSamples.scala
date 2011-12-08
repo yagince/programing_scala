@@ -13,7 +13,7 @@ object StackSamples {
 	
 	val imStack = new ImmutableStack[Int]
 	val has1 = imStack.push(1)
-	println("imStack : " + imStack)
+	println("imSt3ack : " + imStack)
 	val has21 = has1.push(2)
 	val has321 = has21.push(3)
 	println(has321.pop2._1)
