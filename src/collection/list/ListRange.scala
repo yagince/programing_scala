@@ -2,7 +2,7 @@ package collection.list
 
 object ListRange {
   def main(args: Array[String]) {
-	val oneToFour = List.range(1,5) // 5は含まれない、until - 1までのリストを生成する
+	val oneToFour = List.range(1,5)
 	println(oneToFour)
 	
 	val step2 = List.range(1, 10, 2)
@@ -12,6 +12,6 @@ object ListRange {
 	println(step_minus3)
 	
 	val hoge = List.range(1, 10, -1)
-	println(hoge) // 空リストになる　（例外にはならないんだなぁ）
+	println(hoge)
   }
 }

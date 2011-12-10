@@ -18,7 +18,7 @@ object HighOrderFunctions extends ListSample {
     val partitionedList = list partition(_ % 2 == 0)
     println(partitionedList)
     
-    // find 指定した条件の最初に見つかった要素を返す(Option)
+    // find 
     val firstFind = list find (i => i % 2 == 0)
     println(firstFind) // Some(2)
     val notFound = list find (_ > 5)
@@ -36,7 +36,6 @@ object HighOrderFunctions extends ListSample {
     val exists = list exists(_ < 0)
     println(exists)
     
-    // 畳込み リストの要素を何らかの演算子で結合していく
     // /:
     println(sum(list))
     println(product(list))
@@ -48,6 +47,6 @@ object HighOrderFunctions extends ListSample {
   def list = sample
   def sum(xs: List[Int]) = (0 /: xs) (_ + _)
   def product(xs: List[Int]) = (1 /: xs) (_ * _)
-  def joinLeft(xs: List[Any], separator: String) = (xs.head /: xs.tail) (_.toString + separator + _.toString) // これはRubyの方が簡単に書ける
-  def joinRight(xs: List[Any], separator: String) = (xs.init :\ xs.last) (_.toString + separator + _.toString) // これはRubyの方が簡単に書ける
+  def joinLeft(xs: List[Any], separator: String) = (xs.head /: xs.tail) (_.toString + separator + _.toString)
+  def joinRight(xs: List[Any], separator: String) = (xs.init :\ xs.last) (_.toString + separator + _.toString)
 }

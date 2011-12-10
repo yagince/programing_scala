@@ -9,6 +9,6 @@ object ForPattern {
 	val list = List(Some(1), None, Some("hoge"))
 	for(Some(x) <- list)
 	  
-	  println(x) // Some‚Éƒ}ƒbƒ`‚µ‚È‚¢None‚ÍŽÌ‚Ä‚ç‚ê‚é
+	  println(x)
   }
 }

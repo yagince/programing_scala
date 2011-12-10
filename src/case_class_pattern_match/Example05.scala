@@ -2,7 +2,6 @@ package case_class_pattern_match
 
 object Example05 {
   def main(args: Array[String]) {
-    // 部分関数としてのケースシーケンス
     val withDefault: Option[Int] => Int = {
       case Some(x) => x
       case None => 0
