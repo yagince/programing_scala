@@ -12,7 +12,7 @@ object SetSamples {
 	
 	val imuSet = Set(1,2,3)
 	val hoge = imuSet + "s"
-	println(hoge.getClass()) // String‚ğ{‚·‚é‚ÆŒ‹‰Ê‚àString‚É‚È‚éB•sv‹cBˆÃ–Ù‚ÌŒ^•ÏŠ·‚È‚Ì‚©HH
+	println(hoge.getClass()) // Stringã‚’ï¼‹ã™ã‚‹ã¨çµæœã‚‚Stringã«ãªã‚‹ã€‚ä¸æ€è­°ã€‚æš—é»™ã®å‹å¤‰æ›ãªã®ã‹ï¼Ÿï¼Ÿ
 	println(imuSet + 4)
 	println(imuSet - 3)
 	println(imuSet ++ List(4,5,5))
