@@ -7,6 +7,6 @@ object VariablePattern {
 	}
 	def hoge(x: Any) = x match {
 	  case 0 => println("zero")
-	  case something => println("not zero : " + something) // •Ï”ƒpƒ^[ƒ“
+	  case something => println("not zero : " + something)
 	}
 }

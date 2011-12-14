@@ -5,17 +5,17 @@ import Math.{ E, Pi }
 object Example03 {
   def main(args: Array[String]) {
 	  E match {
-	  	case Pi => println("‚¢‚â‚¢‚âA‚»‚ê‚Í‚È‚¢‚Á‚µ‚å")
-	  	case pi => println("‚±‚ê‚Í•Ï”ƒpƒ^[ƒ“‚È‚ñ‚¾‚æ‚Ë => " + pi)
+	  	case Pi => println("ã“ã‚Œã¯æŸç¸›ã•ã‚Œã¦ãªã„")
+	  	case pi => println("ã“ã‚Œã¯å¤‰æ•°ã«æŸç¸›ã•ã‚Œã¦ã‚‹ => " + pi)
 	  }	
 	  E match {
-	  	case pi => println("‚±‚ê‚Í•Ï”ƒpƒ^[ƒ“‚È‚ñ‚¾‚æ‚Ë => " + pi)
-//	  	case _ => println("‚±‚ê‚ÍŽÀs‚³‚ê‚È‚¢") // ‚±‚ê‚Í‰i‰“‚ÉŽÀs‚³‚ê‚È‚¢‚Ì‚ÅAƒRƒ“ƒpƒCƒ‹ƒGƒ‰[
+	  	case pi => println("hoge => " + pi)
+//	  	case _ => println("ã“ã“ã¾ã§åˆ°é”ã—ãªã„ã®ã§ã€ã‚¨ãƒ©ãƒ¼")
 	  }
 	  val pi = 0
 	  E match {
-	  	case `pi` => println("‚±‚ê‚Íƒ[ƒJƒ‹•Ï”‚É‚È‚é‚æ => " + pi) // ‚±‚Ìpi‚Íƒ[ƒJƒ‹•Ï”‚Ìpi‚È‚Ì‚Åu0v
-	  	case pi => println("‚±‚ê‚Í•Ï”ƒpƒ^[ƒ“@„ " + pi) // ‚±‚Ìpi‚Í•Ï”ƒpƒ^[ƒ“‚Ìpi‚È‚Ì‚ÅE
+	  	case `pi` => println("ãƒãƒƒã‚¯ã‚¯ã‚ªãƒ¼ãƒˆã¯ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•° => " + pi)
+	  	case pi => println("hoge" + pi) 
 	  }	
   }
 }

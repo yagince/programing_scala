@@ -6,9 +6,9 @@ object TypePattern {
 	  generalSize(Map(1 -> "a", "n" -> "b"))
   }
   def generalSize(x: Any) = x match {
-    case s: String => println(s.length) // xをStringにキャストする必要は無い
-    case m: Map[_, _] => println(m.size) // ScalaもJava同様、実行時に型情報は持っていないので、型指定できない
-    case ary: Array[String] => println(ary.length) // 配列だけは特別扱い
+    case s: String => println(s.length)
+    case m: Map[_, _] => println(m.size)
+    case ary: Array[String] => println(ary.length)
     case _ => println(-1)
   }
 }

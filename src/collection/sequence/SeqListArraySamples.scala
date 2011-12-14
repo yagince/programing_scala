@@ -14,7 +14,7 @@ object SeqListArraySamples {
 	// Array
 	val fiveInts = new Array[Int](5)
 	println(fiveInts.toList)
-	println(new Array[String](2).toList) // String‚Í‰Šú’lnull
+	println(new Array[String](2).toList)
 
 	// ListBuffer 
 	val buf = new ListBuffer[Int]

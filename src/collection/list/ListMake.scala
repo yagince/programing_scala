@@ -5,7 +5,7 @@ object ListMake {
 	val list1 = List.make(5, "a")
 	println(list1)
 	
-	val list2 = List.make(2, new Hoge("name")) // リストの要素が全て同じオブジェクトを参照する事になる
+	val list2 = List.make(2, new Hoge("name"))
 	list2.foreach((v) => println(v.toString))
 	list2.foreach((v) => v.name += "hoge")
 	list2.foreach((v) => println(v.name))
