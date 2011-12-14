@@ -16,9 +16,12 @@ object ContructorPattern {
       case List(0, _*) => println("Matched!!")
       case _ => println("something")
     }
-
     list match {
+<<<<<<< HEAD
       case List(_*) => println("OK")
+=======
+      case List(_*) => println("�ǁ[��Ȉ�ł�OK")
+>>>>>>> 10e3e3b0c843a5b6d8d6d5b816c63b24672ce019
     }
   }
 }

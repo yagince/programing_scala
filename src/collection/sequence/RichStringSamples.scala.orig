@@ -7,6 +7,9 @@ object RichStringSamples {
 	println(hasUpperCase("hoge"))
 	println(hasUpperCase("foo foo"))
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 10e3e3b0c843a5b6d8d6d5b816c63b24672ce019
   def hasUpperCase(str: String) = str.exists(_.isUpperCase)
 }

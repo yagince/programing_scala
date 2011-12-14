@@ -5,17 +5,31 @@ import Math.{ E, Pi }
 object Example03 {
   def main(args: Array[String]) {
 	  E match {
+<<<<<<< HEAD
 	  	case Pi => println("これは束縛されてない")
 	  	case pi => println("これは変数に束縛されてる => " + pi)
 	  }	
 	  E match {
-	    case pi => println("hoge")
+	  	case pi => println("hoge => " + pi)
 //	  	case _ => println("ここまで到達しないので、エラー")
 	  }
 	  val pi = 0
 	  E match {
 	  	case `pi` => println("バッククオートはローカル変数 => " + pi)
 	  	case pi => println("hoge" + pi) 
+=======
+	  	case Pi => println("hoge")
+	  	case pi => println("hogehoge" + pi)
+	  }	
+	  E match {
+	  	case pi => println("hoge => " + pi)
+//	  	case _ => println("")
+	  }
+	  val pi = 0
+	  E match {
+	  	case `pi` => println("hoge => " + pi)
+	  	case pi => println("hoge" + pi)
+>>>>>>> 10e3e3b0c843a5b6d8d6d5b816c63b24672ce019
 	  }	
   }
 }

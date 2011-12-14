@@ -8,7 +8,11 @@ object ForPattern {
 	  
 	val list = List(Some(1), None, Some("hoge"))
 	for(Some(x) <- list)
-
-	      println(x) 
+<<<<<<< HEAD
+	  println(x) 
+=======
+	  
+	  println(x)
+>>>>>>> 10e3e3b0c843a5b6d8d6d5b816c63b24672ce019
   }
 }
