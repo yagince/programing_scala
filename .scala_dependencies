@@ -15,6 +15,7 @@
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/cupselize/Queue.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/src/cupselize/Queue.scala
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/synchronized_collections/SynchronizedSamples.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/synchronized_collections/SynchronizedSamples.scala
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListRange.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListRange.scala
+/Users/natsuki/workspace/scalable-programing/scala-practice/src/abstarct_type/AbstractType01.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/src/abstarct_type/AbstractType01.scala
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListMake.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListMake.scala
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/HighOrderFunctions.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/HighOrderFunctions.scala
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/HighOrderFunctions.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListSample.scala
@@ -96,6 +97,12 @@
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/synchronized_collections/SynchronizedSamples.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/collection/synchronized_collections/SynchronizedSamples.class
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListRange.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/collection/list/ListRange.class
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListRange.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/collection/list/ListRange$.class
+/Users/natsuki/workspace/scalable-programing/scala-practice/src/abstarct_type/AbstractType01.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/cupselize/AbstractType01$.class
+/Users/natsuki/workspace/scalable-programing/scala-practice/src/abstarct_type/AbstractType01.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/cupselize/Food.class
+/Users/natsuki/workspace/scalable-programing/scala-practice/src/abstarct_type/AbstractType01.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/cupselize/Animal.class
+/Users/natsuki/workspace/scalable-programing/scala-practice/src/abstarct_type/AbstractType01.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/cupselize/AbstractType01.class
+/Users/natsuki/workspace/scalable-programing/scala-practice/src/abstarct_type/AbstractType01.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/cupselize/Grass.class
+/Users/natsuki/workspace/scalable-programing/scala-practice/src/abstarct_type/AbstractType01.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/cupselize/Cow.class
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListMake.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/collection/list/ListMake$$anonfun$main$1.class
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListMake.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/collection/list/ListMake$Hoge.class
 /Users/natsuki/workspace/scalable-programing/scala-practice/src/collection/list/ListMake.scala -> /Users/natsuki/workspace/scalable-programing/scala-practice/bin/collection/list/ListMake$$anonfun$main$3.class
