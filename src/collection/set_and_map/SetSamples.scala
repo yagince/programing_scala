@@ -12,7 +12,7 @@ object SetSamples {
 	
 	val imuSet = Set(1,2,3)
 	val hoge = imuSet + "s"
-	println(hoge.getClass()) // Stringを＋すると結果もStringになる。不思議。暗黙の型変換なのか？？
+	println(hoge.getClass())
 	println(imuSet + 4)
 	println(imuSet - 3)
 	println(imuSet ++ List(4,5,5))
