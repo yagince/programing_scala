@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" output="target/scala-2.9.1/classes" path="src/main/scala"/>
+	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" output="target/scala-2.9.1/test-classes" path="src/test/scala"/>
+	<classpathentry kind="src" path="src/test/resources"/>
 	<classpathentry kind="lib" path="lib/junit-4.9.jar"/>
 	<classpathentry kind="lib" path="lib/scalatest-1.6.1.jar"/>
 	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>

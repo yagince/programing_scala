@@ -7,7 +7,7 @@ import akka.routing.RoundRobinRouter
 
 object AkkaSample extends App {
   calculate(nrOfWorkers = 4, nrOfElements = 10000, nrOfMessages = 10000)
-
+  
   def calculate(nrOfWorkers: Int, nrOfElements: Int, nrOfMessages: Int) {
     // Create an Akka system
     val system = ActorSystem("PiSystem")
