@@ -1,4 +1,4 @@
-package cupselize
+package abstarct_type
 
 object AbstractType01 {
   def main(args: Array[String]) {

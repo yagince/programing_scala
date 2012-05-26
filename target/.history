@@ -1,0 +1,6 @@
+run
+exit
+sbt
+run
+eclipse
+exit
